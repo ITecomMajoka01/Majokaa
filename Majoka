@@ -1,0 +1,11 @@
+<div class="gcse-searchbox" data-resultsUrl="https://www.google.com/" data-newWindow="true" data-noBoxter="true" data-cx="YOUR_CSE_ID"></div>
+<script type="text/javascript" src="https://cse.majoka2.wordpress.com/cse/static/css/cgcse-theme.css"></script>
+<script type="text/javascript" src="https://www.majoka2.wordpress.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+<script type="text/javascript" src="https://www.majoka2.wordpress.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('YOUR_CSE_ID');
+    customSearchControl.draw('cse-search-box');
+  }, true);
+</script>
